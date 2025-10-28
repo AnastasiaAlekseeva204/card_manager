@@ -1,0 +1,1 @@
+ДЗ: прочитать и подготовить вопросы https://developers.sber.ru/docs/ru/gigachat/api/reference/rest/gigachat-api
