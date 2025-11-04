@@ -1,0 +1,91 @@
+{
+  "companies": [
+    {
+      "company_name": "ООО Технологии",
+      "company_address": "Москва, ул. Ленина 1",
+      "company_website": "tech.ru"
+    },
+    {
+      "company_name": "ИП Иванов",
+      "company_address": "СПб, пр. Мира 15",
+      "company_website": "ivanov.com"
+    },
+    {
+      "company_name": "АО Развитие",
+      "company_address": "Казань, ул. Победы 7",
+      "company_website": "razvitie.org"
+    }
+  ],
+  "employees": [
+    {
+      "full_name": "Петров Иван",
+      "status": "Директор",
+      "phone_number": "+7-900-123-45-67",
+      "email": "petrov@tech.ru",
+      "Company_name": "ООО Технологии"
+    },
+    {
+      "full_name": "Сидорова Анна",
+      "status": "Менеджер",
+      "phone_number": "+7-900-234-56-78",
+      "email": "sidorova@tech.ru",
+      "Company_name": "ООО Технологии"
+    },
+    {
+      "full_name": "Козлов Петр",
+      "status": "Программист",
+      "phone_number": "+7-900-345-67-89",
+      "email": "kozlov@tech.ru",
+      "Company_name": "ООО Технологии"
+    },
+    {
+      "full_name": "Морозова Елена",
+      "status": "Дизайнер",
+      "phone_number": "+7-900-456-78-90",
+      "email": "morozova@tech.ru",
+      "Company_name": "ООО Технологии"
+    },
+    {
+      "full_name": "Волков Сергей",
+      "status": "Тестировщик",
+      "phone_number": "+7-900-567-89-01",
+      "email": "volkov@tech.ru",
+      "Company_name": "ООО Технологии"
+    },
+    {
+      "full_name": "Иванов Михаил",
+      "status": "Предприниматель",
+      "phone_number": "+7-911-123-45-67",
+      "email": "m.ivanov@ivanov.com",
+      "Company_name": "ИП Иванов"
+    },
+    {
+      "full_name": "Смирнова Ольга",
+      "status": "Помощник",
+      "phone_number": "+7-911-234-56-78",
+      "email": "smirnova@ivanov.com",
+      "Company_name": "ИП Иванов"
+    },
+    {
+      "full_name": "Попов Андрей",
+      "status": "Консультант",
+      "phone_number": "+7-911-345-67-89",
+      "email": "popov@ivanov.com",
+      "Company_name": "ИП Иванов"
+    },
+    {
+      "full_name": "Новиков Алексей",
+      "status": "Генеральный директор",
+      "phone_number": "+7-987-123-45-67",
+      "email": "novikov@razvitie.org",
+      "Company_name": "АО Развитие"
+    },
+    {
+      "full_name": "Федорова Мария",
+      "status": "Секретарь",
+      "phone_number": "+7-987-234-56-78",
+      "email": "fedorova@razvitie.org",
+      "Company_name": "АО Развитие"
+    }
+  ]
+}

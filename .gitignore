@@ -2,3 +2,5 @@
 venv
 venv312
 __pycache__
+new_venv
+.env.example

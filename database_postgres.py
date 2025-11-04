@@ -2,7 +2,7 @@ from sqlalchemy import create_engine, Column, Integer, String, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship
 
-engine = create_engine('sqlite:///business_cards.sqlite')
+engine = create_engine('postgresql://user:password@localhost:5437/business_cards')
 SessionLocal = sessionmaker(bind=engine)
 Base = declarative_base()
 

@@ -1,0 +1,161 @@
+{
+  "companies": [
+    {
+      "company_name": "Министерство экономического развития Российской Федерации Департамент инвестиционной политики и развития частно-государственного партнерства",
+      "company_address": "",
+      "company_website": ""
+    },
+    {
+      "company_name": "Тюнинг Ателье \"SPEEDCARS\"",
+      "company_address": "",
+      "company_website": ""
+    },
+    {
+      "company_name": "ООО Технологии",
+      "company_address": "",
+      "company_website": ""
+    },
+    {
+      "company_name": "ИП Иванов",
+      "company_address": "",
+      "company_website": ""
+    },
+    {
+      "company_name": "АО Развитие",
+      "company_address": "",
+      "company_website": ""
+    }
+  ],
+  "employees": [
+    {
+      "full_name": "Илюшникова Татьяна Александровна",
+      "status": "Начальник отдела, к.э.н.",
+      "phone_number": "8 (499) 795-65-41",
+      "email": "economy@economy.gov.ru",
+      "adress": "121069 г. Москва, Трубниковский пер., д. 19",
+      "website": "",
+      "additional_info": "Факс: 8 (499) 795-66-26",
+      "Company_name": "Министерство экономического развития Российской Федерации Департамент инвестиционной политики и развития частно-государственного партнерства"
+    },
+    {
+      "full_name": "Яковенко Александр",
+      "status": "Исполнительный директор",
+      "phone_number": "+7 (495) 545-48-48, моб.: +7 (925) 506-52-25",
+      "email": "info@speedcars.ru",
+      "adress": "125195, г. Москва, Ленинградское шоссе, 53А",
+      "website": "www.speedcars.ru",
+      "additional_info": "UNLIMITED TUNING FACTORY",
+      "Company_name": "Тюнинг Ателье \"SPEEDCARS\""
+    },
+    {
+      "full_name": "Ерменко Александр",
+      "status": "директор-2",
+      "phone_number": "+7 (495) 545-48-48, моб.: +7 (925) 506-52-25",
+      "email": "info-2@speedcars.ru",
+      "adress": "125195, г. Москва, Ленинградское шоссе, 53А",
+      "website": "www.speedcars.ru",
+      "additional_info": "UNLIMITED TUNING FACTORY",
+      "Company_name": "Тюнинг Ателье \"SPEEDCARS\""
+    },
+    {
+      "full_name": "Петров Иван",
+      "status": "Директор",
+      "phone_number": "+7-900-123-45-67",
+      "email": "petrov@tech.ru",
+      "adress": "",
+      "website": "",
+      "additional_info": "",
+      "Company_name": "ООО Технологии"
+    },
+    {
+      "full_name": "Сидорова Анна",
+      "status": "Менеджер",
+      "phone_number": "+7-900-234-56-78",
+      "email": "sidorova@tech.ru",
+      "adress": "",
+      "website": "",
+      "additional_info": "",
+      "Company_name": "ООО Технологии"
+    },
+    {
+      "full_name": "Козлов Петр",
+      "status": "Программист",
+      "phone_number": "+7-900-345-67-89",
+      "email": "kozlov@tech.ru",
+      "adress": "",
+      "website": "",
+      "additional_info": "",
+      "Company_name": "ООО Технологии"
+    },
+    {
+      "full_name": "Морозова Елена",
+      "status": "Дизайнер",
+      "phone_number": "+7-900-456-78-90",
+      "email": "morozova@tech.ru",
+      "adress": "",
+      "website": "",
+      "additional_info": "",
+      "Company_name": "ООО Технологии"
+    },
+    {
+      "full_name": "Волков Сергей",
+      "status": "Тестировщик",
+      "phone_number": "+7-900-567-89-01",
+      "email": "volkov@tech.ru",
+      "adress": "",
+      "website": "",
+      "additional_info": "",
+      "Company_name": "ООО Технологии"
+    },
+    {
+      "full_name": "Иванов Михаил",
+      "status": "Предприниматель",
+      "phone_number": "+7-911-123-45-67",
+      "email": "m.ivanov@ivanov.com",
+      "adress": "",
+      "website": "",
+      "additional_info": "",
+      "Company_name": "ИП Иванов"
+    },
+    {
+      "full_name": "Смирнова Ольга",
+      "status": "Помощник",
+      "phone_number": "+7-911-234-56-78",
+      "email": "smirnova@ivanov.com",
+      "adress": "",
+      "website": "",
+      "additional_info": "",
+      "Company_name": "ИП Иванов"
+    },
+    {
+      "full_name": "Попов Андрей",
+      "status": "Консультант",
+      "phone_number": "+7-911-345-67-89",
+      "email": "popov@ivanov.com",
+      "adress": "",
+      "website": "",
+      "additional_info": "",
+      "Company_name": "ИП Иванов"
+    },
+    {
+      "full_name": "Новиков Алексей",
+      "status": "Генеральный директор",
+      "phone_number": "+7-987-123-45-67",
+      "email": "novikov@razvitie.org",
+      "adress": "",
+      "website": "",
+      "additional_info": "",
+      "Company_name": "АО Развитие"
+    },
+    {
+      "full_name": "Федорова Мария",
+      "status": "Секретарь",
+      "phone_number": "+7-987-234-56-78",
+      "email": "fedorova@razvitie.org",
+      "adress": "",
+      "website": "",
+      "additional_info": "",
+      "Company_name": "АО Развитие"
+    }
+  ]
+}

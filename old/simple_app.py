@@ -115,9 +115,10 @@ def save_to_db():
         session.add(card)
         session.commit()
         card_id = card.id
+        company_id = company.id if company else None
         session.close()
         
-        orm_query = f"card = BusinessCard(full_name='{data['full_name']}', status='{data['status']}', company_id={company.id if company else 'None'})\nsession.add(card)\nsession.commit()"
+        orm_query = f"card = BusinessCard(full_name='{data['full_name']}', status='{data['status']}', company_id={company_id})\nsession.add(card)\nsession.commit()"
         sql_text.delete(1.0, tk.END)
         sql_text.insert(tk.END, orm_query)
         
