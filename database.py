@@ -2,7 +2,8 @@ from sqlalchemy import create_engine, Column, Integer, String, ForeignKey
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship
 
-engine = create_engine('sqlite:///business_cards.sqlite')
+# engine = create_engine('sqlite:///business_cards.sqlite')
+engine = create_engine('postgresql://admin:admin123@localhost:5435/business_cards')
 SessionLocal = sessionmaker(bind=engine)
 Base = declarative_base()
 
@@ -41,12 +42,12 @@ def save_business_card(data):
         company = session.query(Company).filter(Company.company_name == data['Company_name']).first()
         if not company:
             company = Company(
-                company_name=data.get('Company_name', ''),
-                company_address=data.get('adress', ''),
-                company_website=data.get('website', '')
+                company_name=data['Company_name'],
+                company_address='',
+                company_website=''
             )
             session.add(company)
-            session.commit()
+            session.flush()
     
     card_data = {k: v for k, v in data.items() if k != 'Company_name'}
     card = BusinessCard(**card_data)

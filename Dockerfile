@@ -1,0 +1,7 @@
+FROM postgres:17
+
+ENV POSTGRES_USER=admin
+ENV POSTGRES_PASSWORD=admin123
+ENV POSTGRES_DB=business_cards
+
+EXPOSE 5432

@@ -1,0 +1,121 @@
+{
+  "companies": [
+    {
+      "company_name": "ООО Технологии Будущего",
+      "company_address": "г. Москва, ул. Тверская, д. 15",
+      "company_website": "https://techfuture.ru"
+    },
+    {
+      "company_name": "ИП Консалтинг Групп",
+      "company_address": "г. СПб, Невский пр., д. 28",
+      "company_website": "https://consulting-group.ru"
+    },
+    {
+      "company_name": "Стартап Инновации",
+      "company_address": "г. Екатеринбург, ул. Ленина, д. 45",
+      "company_website": "https://startup-innovations.com"
+    }
+  ],
+  "business_cards": [
+    {
+      "full_name": "Иванов Иван Иванович",
+      "status": "Генеральный директор",
+      "phone_number": "+7 (495) 123-45-67",
+      "adress": "г. Москва, ул. Тверская, д. 15",
+      "email": "ivanov@techfuture.ru",
+      "website": "https://techfuture.ru",
+      "additional_info": "Основатель компании",
+      "company_name": "ООО Технологии Будущего"
+    },
+    {
+      "full_name": "Петрова Мария Сергеевна",
+      "status": "Технический директор",
+      "phone_number": "+7 (495) 123-45-68",
+      "adress": "г. Москва, ул. Тверская, д. 15",
+      "email": "petrova@techfuture.ru",
+      "website": "https://techfuture.ru",
+      "additional_info": "Ведущий разработчик",
+      "company_name": "ООО Технологии Будущего"
+    },
+    {
+      "full_name": "Сидоров Алексей Петрович",
+      "status": "Менеджер по продажам",
+      "phone_number": "+7 (495) 123-45-69",
+      "adress": "г. Москва, ул. Тверская, д. 15",
+      "email": "sidorov@techfuture.ru",
+      "website": "https://techfuture.ru",
+      "additional_info": "Отдел продаж",
+      "company_name": "ООО Технологии Будущего"
+    },
+    {
+      "full_name": "Козлова Елена Андреевна",
+      "status": "HR-менеджер",
+      "phone_number": "+7 (495) 123-45-70",
+      "adress": "г. Москва, ул. Тверская, д. 15",
+      "email": "kozlova@techfuture.ru",
+      "website": "https://techfuture.ru",
+      "additional_info": "Отдел кадров",
+      "company_name": "ООО Технологии Будущего"
+    },
+    {
+      "full_name": "Морозов Дмитрий Владимирович",
+      "status": "Системный администратор",
+      "phone_number": "+7 (495) 123-45-71",
+      "adress": "г. Москва, ул. Тверская, д. 15",
+      "email": "morozov@techfuture.ru",
+      "website": "https://techfuture.ru",
+      "additional_info": "IT-отдел",
+      "company_name": "ООО Технологии Будущего"
+    },
+    {
+      "full_name": "Смирнов Олег Николаевич",
+      "status": "Старший консультант",
+      "phone_number": "+7 (812) 234-56-78",
+      "adress": "г. СПб, Невский пр., д. 28",
+      "email": "smirnov@consulting-group.ru",
+      "website": "https://consulting-group.ru",
+      "additional_info": "Бизнес-консультирование",
+      "company_name": "ИП Консалтинг Групп"
+    },
+    {
+      "full_name": "Федорова Анна Викторовна",
+      "status": "Финансовый аналитик",
+      "phone_number": "+7 (812) 234-56-79",
+      "adress": "г. СПб, Невский пр., д. 28",
+      "email": "fedorova@consulting-group.ru",
+      "website": "https://consulting-group.ru",
+      "additional_info": "Финансовый отдел",
+      "company_name": "ИП Консалтинг Групп"
+    },
+    {
+      "full_name": "Волков Сергей Александрович",
+      "status": "Юрист",
+      "phone_number": "+7 (812) 234-56-80",
+      "adress": "г. СПб, Невский пр., д. 28",
+      "email": "volkov@consulting-group.ru",
+      "website": "https://consulting-group.ru",
+      "additional_info": "Юридический отдел",
+      "company_name": "ИП Консалтинг Групп"
+    },
+    {
+      "full_name": "Новиков Артем Игоревич",
+      "status": "CEO",
+      "phone_number": "+7 (343) 345-67-89",
+      "adress": "г. Екатеринбург, ул. Ленина, д. 45",
+      "email": "novikov@startup-innovations.com",
+      "website": "https://startup-innovations.com",
+      "additional_info": "Основатель стартапа",
+      "company_name": "Стартап Инновации"
+    },
+    {
+      "full_name": "Лебедева Ксения Дмитриевна",
+      "status": "Product Manager",
+      "phone_number": "+7 (343) 345-67-90",
+      "adress": "г. Екатеринбург, ул. Ленина, д. 45",
+      "email": "lebedeva@startup-innovations.com",
+      "website": "https://startup-innovations.com",
+      "additional_info": "Управление продуктом",
+      "company_name": "Стартап Инновации"
+    }
+  ]
+}

@@ -91,37 +91,13 @@ def save_to_db():
         data[field_name] = entry.get()
     
     try:
-        session = SessionLocal()
+        card_id = save_business_card(data)
         
-        # Находим или создаем компанию
-        company = None
-        if data.get('Company_name'):
-            company = session.query(Company).filter(Company.company_name == data['Company_name']).first()
-            if not company:
-                company = Company(
-                    company_name=data['Company_name'],
-                    company_address='',
-                    company_website=''
-                )
-                session.add(company)
-                session.flush()  # Получаем ID компании
-        
-        # Создаем визитку
-        card_data = {k: v for k, v in data.items() if k != 'Company_name'}
-        card = BusinessCard(**card_data)
-        if company:
-            card.company_id = company.id
-        
-        session.add(card)
-        session.commit()
-        card_id = card.id
-        session.close()
-        
-        orm_query = f"card = BusinessCard(full_name='{data['full_name']}', status='{data['status']}', company_id={company.id if company else 'None'})\nsession.add(card)\nsession.commit()"
+        orm_query = f"card = BusinessCard(**data)\nsession.add(card)\nsession.commit()"
         sql_text.delete(1.0, tk.END)
         sql_text.insert(tk.END, orm_query)
         
-        sqlalchemy_code = f"company = session.query(Company).filter_by(company_name='{data['Company_name']}').first()\nif not company:\n    company = Company(company_name='{data['Company_name']}')\n    session.add(company)\ncard = BusinessCard(**data)\ncard.company = company\nsession.add(card)\nsession.commit()"
+        sqlalchemy_code = f"card = BusinessCard(**data)\nsession.add(card)\nsession.commit()"
         sqlalchemy_text.delete(1.0, tk.END)
         sqlalchemy_text.insert(tk.END, sqlalchemy_code)
         
@@ -129,6 +105,38 @@ def save_to_db():
         load_db_data()
     except Exception as e:
         messagebox.showerror("Ошибка", f"Не удалось сохранить: {str(e)}")
+
+def backup_db():
+    try:
+        session = SessionLocal()
+        cards = session.query(BusinessCard).all()
+        
+        backup_data = []
+        for card in cards:
+            company_name = card.company.company_name if card.company else ""
+            backup_data.append({
+                'id': card.id,
+                'full_name': card.full_name,
+                'status': card.status,
+                'Company_name': company_name,
+                'phone_number': card.phone_number,
+                'adress': card.adress,
+                'email': card.email,
+                'website': card.website,
+                'additional_info': card.additional_info
+            })
+        
+        session.close()
+        
+        from datetime import datetime
+        filename = f"backup_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+        
+        with open(filename, 'w', encoding='utf-8') as f:
+            json.dump(backup_data, f, ensure_ascii=False, indent=2)
+        
+        messagebox.showinfo("Успех", f"Бэкап сохранен: {filename}")
+    except Exception as e:
+        messagebox.showerror("Ошибка", f"Не удалось создать бэкап: {str(e)}")
 
 def delete_record():
     selection = tree.selection()
@@ -287,6 +295,9 @@ save_button.pack(side="left", padx=5)
 delete_button = tk.Button(button_frame, text="Удалить", command=delete_record, font=("Arial", 10))
 delete_button.pack(side="left", padx=5)
 
+backup_button = tk.Button(button_frame, text="Бэкап", command=lambda: backup_db(), font=("Arial", 10))
+backup_button.pack(side="left", padx=5)
+
 # Кнопка распознавания
 recognize_button = tk.Button(right_frame, text="Выбрать изображение", command=select_and_recognize, font=("Arial", 12))
 recognize_button.pack(pady=10)
@@ -317,5 +328,6 @@ for label_text, field_name in fields:
 
 # Загрузка данных при запуске
 load_db_data()
+add_new()
 
 root.mainloop()

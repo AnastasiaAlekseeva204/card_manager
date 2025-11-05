@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "full_name": "Иванов Иван Иванович",
+    "status": "Генеральный директор",
+    "Company_name": "КОМПАНИЯ Юридические услуги",
+    "phone_number": "+7 (499) 724-52-94",
+    "adress": "117939, Россия, г. Москва, ул. Гарибальди, д. 28, к. 1",
+    "email": "6842828@gmail.com",
+    "website": "www.master28.ru",
+    "additional_info": ""
+  },
+  {
+    "id": 2,
+    "full_name": "Иванов Иван Иванович",
+    "status": "Генеральный директор",
+    "Company_name": "ООО Технологии Будущего",
+    "phone_number": "+7 (495) 123-45-67",
+    "adress": "г. Москва, ул. Тверская, д. 15",
+    "email": "ivanov@techfuture.ru",
+    "website": "https://techfuture.ru",
+    "additional_info": "Основатель компании"
+  },
+  {
+    "id": 3,
+    "full_name": "Петрова Мария Сергеевна",
+    "status": "Технический директор",
+    "Company_name": "ООО Технологии Будущего",
+    "phone_number": "+7 (495) 123-45-68",
+    "adress": "г. Москва, ул. Тверская, д. 15",
+    "email": "petrova@techfuture.ru",
+    "website": "https://techfuture.ru",
+    "additional_info": "Ведущий разработчик"
+  },
+  {
+    "id": 4,
+    "full_name": "Сидоров Алексей Петрович",
+    "status": "Менеджер по продажам",
+    "Company_name": "ООО Технологии Будущего",
+    "phone_number": "+7 (495) 123-45-69",
+    "adress": "г. Москва, ул. Тверская, д. 15",
+    "email": "sidorov@techfuture.ru",
+    "website": "https://techfuture.ru",
+    "additional_info": "Отдел продаж"
+  },
+  {
+    "id": 5,
+    "full_name": "Козлова Елена Андреевна",
+    "status": "HR-менеджер",
+    "Company_name": "ООО Технологии Будущего",
+    "phone_number": "+7 (495) 123-45-70",
+    "adress": "г. Москва, ул. Тверская, д. 15",
+    "email": "kozlova@techfuture.ru",
+    "website": "https://techfuture.ru",
+    "additional_info": "Отдел кадров"
+  },
+  {
+    "id": 6,
+    "full_name": "Морозов Дмитрий Владимирович",
+    "status": "Системный администратор",
+    "Company_name": "ООО Технологии Будущего",
+    "phone_number": "+7 (495) 123-45-71",
+    "adress": "г. Москва, ул. Тверская, д. 15",
+    "email": "morozov@techfuture.ru",
+    "website": "https://techfuture.ru",
+    "additional_info": "IT-отдел"
+  },
+  {
+    "id": 7,
+    "full_name": "Смирнов Олег Николаевич",
+    "status": "Старший консультант",
+    "Company_name": "ИП Консалтинг Групп",
+    "phone_number": "+7 (812) 234-56-78",
+    "adress": "г. СПб, Невский пр., д. 28",
+    "email": "smirnov@consulting-group.ru",
+    "website": "https://consulting-group.ru",
+    "additional_info": "Бизнес-консультирование"
+  },
+  {
+    "id": 8,
+    "full_name": "Федорова Анна Викторовна",
+    "status": "Финансовый аналитик",
+    "Company_name": "ИП Консалтинг Групп",
+    "phone_number": "+7 (812) 234-56-79",
+    "adress": "г. СПб, Невский пр., д. 28",
+    "email": "fedorova@consulting-group.ru",
+    "website": "https://consulting-group.ru",
+    "additional_info": "Финансовый отдел"
+  },
+  {
+    "id": 9,
+    "full_name": "Волков Сергей Александрович",
+    "status": "Юрист",
+    "Company_name": "ИП Консалтинг Групп",
+    "phone_number": "+7 (812) 234-56-80",
+    "adress": "г. СПб, Невский пр., д. 28",
+    "email": "volkov@consulting-group.ru",
+    "website": "https://consulting-group.ru",
+    "additional_info": "Юридический отдел"
+  },
+  {
+    "id": 10,
+    "full_name": "Новиков Артем Игоревич",
+    "status": "CEO",
+    "Company_name": "Стартап Инновации",
+    "phone_number": "+7 (343) 345-67-89",
+    "adress": "г. Екатеринбург, ул. Ленина, д. 45",
+    "email": "novikov@startup-innovations.com",
+    "website": "https://startup-innovations.com",
+    "additional_info": "Основатель стартапа"
+  },
+  {
+    "id": 11,
+    "full_name": "Лебедева Ксения Дмитриевна",
+    "status": "Product Manager",
+    "Company_name": "Стартап Инновации",
+    "phone_number": "+7 (343) 345-67-90",
+    "adress": "г. Екатеринбург, ул. Ленина, д. 45",
+    "email": "lebedeva@startup-innovations.com",
+    "website": "https://startup-innovations.com",
+    "additional_info": "Управление продуктом"
+  }
+]
